@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repo-Scoped Regression"
+  short_description: "Current repo first, sibling platforms only with evidence"
+  brand_color: "#8B5CF6"
+  default_prompt: "Determine current repo scope, then create the smallest justified regression matrix and only add sibling-platform follow-up when evidence supports it."
+policy:
+  allow_implicit_invocation: true

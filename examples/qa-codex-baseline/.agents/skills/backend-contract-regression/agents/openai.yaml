@@ -1,0 +1,7 @@
+interface:
+  display_name: "后端回归分析"
+  short_description: "接口契约、数据层和异步链路影响分析"
+  brand_color: "#2563EB"
+  default_prompt: "分析当前后端仓库改动，输出接口契约、数据库、异步任务和调用方回归范围。"
+policy:
+  allow_implicit_invocation: true

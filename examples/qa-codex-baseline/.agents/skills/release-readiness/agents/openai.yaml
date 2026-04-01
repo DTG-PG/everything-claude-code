@@ -1,0 +1,7 @@
+interface:
+  display_name: "Release Readiness"
+  short_description: "READY / CONDITIONAL / BLOCKED decision support"
+  brand_color: "#F59E0B"
+  default_prompt: "Assess release readiness and return READY, CONDITIONAL, or BLOCKED with reasons."
+policy:
+  allow_implicit_invocation: true

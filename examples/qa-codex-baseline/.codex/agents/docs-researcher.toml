@@ -1,0 +1,9 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+sandbox_mode = "read-only"
+
+developer_instructions = """
+Verify external behavior against official documentation first.
+Focus on OS APIs, browser behavior, SDK changes, permission models, and platform release notes that may affect testing or release risk.
+Separate confirmed facts from inference.
+"""

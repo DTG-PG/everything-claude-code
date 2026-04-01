@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test Impact Analysis"
+  short_description: "Diff-to-risk triage for QA"
+  brand_color: "#0EA5E9"
+  default_prompt: "Analyze this diff and produce a minimal regression scope for QA."
+policy:
+  allow_implicit_invocation: true
